@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A63AEFC6BE964853B82444F4 /* libPods-DKSpeller.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4745187003D34C6890272D72 /* libPods-DKSpeller.a */; };
+		DF942DBA19391DB800AEFE8B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF942DB919391DB800AEFE8B /* Foundation.framework */; };
+		DF942DBC19391DB800AEFE8B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF942DBB19391DB800AEFE8B /* CoreGraphics.framework */; };
+		DF942DBE19391DB800AEFE8B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF942DBD19391DB800AEFE8B /* UIKit.framework */; };
+		DF942DC419391DB800AEFE8B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DF942DC219391DB800AEFE8B /* InfoPlist.strings */; };
+		DF942DC619391DB800AEFE8B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF942DC519391DB800AEFE8B /* main.m */; };
+		DF942DCA19391DB800AEFE8B /* DKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF942DC919391DB800AEFE8B /* DKAppDelegate.m */; };
+		DF942DCC19391DB800AEFE8B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF942DCB19391DB800AEFE8B /* Images.xcassets */; };
+		DF942DD319391DB800AEFE8B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF942DD219391DB800AEFE8B /* XCTest.framework */; };
+		DF942DD419391DB800AEFE8B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF942DB919391DB800AEFE8B /* Foundation.framework */; };
+		DF942DD519391DB800AEFE8B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF942DBD19391DB800AEFE8B /* UIKit.framework */; };
+		DF942DDD19391DB800AEFE8B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DF942DDB19391DB800AEFE8B /* InfoPlist.strings */; };
+		DF942DDF19391DB800AEFE8B /* DKSpellerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF942DDE19391DB800AEFE8B /* DKSpellerTests.m */; };
+		DF942DEC19391E1700AEFE8B /* DKCheckResult.m in Sources */ = {isa = PBXBuildFile; fileRef = DF942DEB19391E1700AEFE8B /* DKCheckResult.m */; };
+		DF942DEF19391EAC00AEFE8B /* DKMisspelling.m in Sources */ = {isa = PBXBuildFile; fileRef = DF942DEE19391EAC00AEFE8B /* DKMisspelling.m */; };
+		DF942DF319391F9F00AEFE8B /* DKSpeller.m in Sources */ = {isa = PBXBuildFile; fileRef = DF942DF219391F9F00AEFE8B /* DKSpeller.m */; };
+		DF942DF81939215800AEFE8B /* DKOnlineChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = DF942DF71939215800AEFE8B /* DKOnlineChecker.m */; };
+		DF942DFC193922BC00AEFE8B /* DKCheckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF942DFB193922BC00AEFE8B /* DKCheckViewController.m */; };
+		DF942DFF193922CB00AEFE8B /* DKCheckView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF942DFE193922CB00AEFE8B /* DKCheckView.m */; };
+		DFD51D03193E570C00964FB5 /* DKAppFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = DFD51D02193E570C00964FB5 /* DKAppFactory.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF942DD619391DB800AEFE8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF942DAE19391DB800AEFE8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF942DB519391DB800AEFE8B;
+			remoteInfo = DKSpeller;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F169E15B7934A40BD5D5C8B /* Pods-DKSpeller.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DKSpeller.xcconfig"; path = "Pods/Pods-DKSpeller.xcconfig"; sourceTree = "<group>"; };
+		4745187003D34C6890272D72 /* libPods-DKSpeller.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DKSpeller.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF942DB619391DB800AEFE8B /* DKSpeller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DKSpeller.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF942DB919391DB800AEFE8B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DF942DBB19391DB800AEFE8B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DF942DBD19391DB800AEFE8B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DF942DC119391DB800AEFE8B /* DKSpeller-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DKSpeller-Info.plist"; sourceTree = "<group>"; };
+		DF942DC319391DB800AEFE8B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DF942DC519391DB800AEFE8B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF942DC719391DB800AEFE8B /* DKSpeller-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DKSpeller-Prefix.pch"; sourceTree = "<group>"; };
+		DF942DC819391DB800AEFE8B /* DKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKAppDelegate.h; sourceTree = "<group>"; };
+		DF942DC919391DB800AEFE8B /* DKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKAppDelegate.m; sourceTree = "<group>"; };
+		DF942DCB19391DB800AEFE8B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DF942DD119391DB800AEFE8B /* DKSpellerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DKSpellerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF942DD219391DB800AEFE8B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		DF942DDA19391DB800AEFE8B /* DKSpellerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DKSpellerTests-Info.plist"; sourceTree = "<group>"; };
+		DF942DDC19391DB800AEFE8B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DF942DDE19391DB800AEFE8B /* DKSpellerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DKSpellerTests.m; sourceTree = "<group>"; };
+		DF942DEA19391E1700AEFE8B /* DKCheckResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKCheckResult.h; sourceTree = "<group>"; };
+		DF942DEB19391E1700AEFE8B /* DKCheckResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKCheckResult.m; sourceTree = "<group>"; };
+		DF942DED19391EAC00AEFE8B /* DKMisspelling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKMisspelling.h; sourceTree = "<group>"; };
+		DF942DEE19391EAC00AEFE8B /* DKMisspelling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKMisspelling.m; sourceTree = "<group>"; };
+		DF942DF119391F9F00AEFE8B /* DKSpeller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKSpeller.h; sourceTree = "<group>"; };
+		DF942DF219391F9F00AEFE8B /* DKSpeller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKSpeller.m; sourceTree = "<group>"; };
+		DF942DF419391FD300AEFE8B /* DKIChecker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKIChecker.h; sourceTree = "<group>"; };
+		DF942DF61939215800AEFE8B /* DKOnlineChecker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKOnlineChecker.h; sourceTree = "<group>"; };
+		DF942DF71939215800AEFE8B /* DKOnlineChecker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKOnlineChecker.m; sourceTree = "<group>"; };
+		DF942DFA193922BC00AEFE8B /* DKCheckViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKCheckViewController.h; sourceTree = "<group>"; };
+		DF942DFB193922BC00AEFE8B /* DKCheckViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKCheckViewController.m; sourceTree = "<group>"; };
+		DF942DFD193922CB00AEFE8B /* DKCheckView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKCheckView.h; sourceTree = "<group>"; };
+		DF942DFE193922CB00AEFE8B /* DKCheckView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKCheckView.m; sourceTree = "<group>"; };
+		DF942E00193922DA00AEFE8B /* DKCheckViewDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKCheckViewDataSource.h; sourceTree = "<group>"; };
+		DFD51D00193E478100964FB5 /* DKCheckViewDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DKCheckViewDelegate.h; sourceTree = "<group>"; };
+		DFD51D01193E570C00964FB5 /* DKAppFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DKAppFactory.h; sourceTree = "<group>"; };
+		DFD51D02193E570C00964FB5 /* DKAppFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DKAppFactory.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF942DB319391DB800AEFE8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF942DBC19391DB800AEFE8B /* CoreGraphics.framework in Frameworks */,
+				DF942DBE19391DB800AEFE8B /* UIKit.framework in Frameworks */,
+				DF942DBA19391DB800AEFE8B /* Foundation.framework in Frameworks */,
+				A63AEFC6BE964853B82444F4 /* libPods-DKSpeller.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF942DCE19391DB800AEFE8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF942DD319391DB800AEFE8B /* XCTest.framework in Frameworks */,
+				DF942DD519391DB800AEFE8B /* UIKit.framework in Frameworks */,
+				DF942DD419391DB800AEFE8B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF942DAD19391DB800AEFE8B = {
+			isa = PBXGroup;
+			children = (
+				DF942DBF19391DB800AEFE8B /* DKSpeller */,
+				DF942DD819391DB800AEFE8B /* DKSpellerTests */,
+				DF942DB819391DB800AEFE8B /* Frameworks */,
+				DF942DB719391DB800AEFE8B /* Products */,
+				2F169E15B7934A40BD5D5C8B /* Pods-DKSpeller.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		DF942DB719391DB800AEFE8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF942DB619391DB800AEFE8B /* DKSpeller.app */,
+				DF942DD119391DB800AEFE8B /* DKSpellerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF942DB819391DB800AEFE8B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF942DB919391DB800AEFE8B /* Foundation.framework */,
+				DF942DBB19391DB800AEFE8B /* CoreGraphics.framework */,
+				DF942DBD19391DB800AEFE8B /* UIKit.framework */,
+				DF942DD219391DB800AEFE8B /* XCTest.framework */,
+				4745187003D34C6890272D72 /* libPods-DKSpeller.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF942DBF19391DB800AEFE8B /* DKSpeller */ = {
+			isa = PBXGroup;
+			children = (
+				DF942DF9193922AB00AEFE8B /* UI */,
+				DF942DF51939214B00AEFE8B /* Checker */,
+				DF942DF019391F8F00AEFE8B /* Speller */,
+				DF942DE919391DF100AEFE8B /* DTO */,
+				DF942DC819391DB800AEFE8B /* DKAppDelegate.h */,
+				DF942DC919391DB800AEFE8B /* DKAppDelegate.m */,
+				DFD51D01193E570C00964FB5 /* DKAppFactory.h */,
+				DFD51D02193E570C00964FB5 /* DKAppFactory.m */,
+				DF942DCB19391DB800AEFE8B /* Images.xcassets */,
+				DF942DC019391DB800AEFE8B /* Supporting Files */,
+			);
+			path = DKSpeller;
+			sourceTree = "<group>";
+		};
+		DF942DC019391DB800AEFE8B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF942DC119391DB800AEFE8B /* DKSpeller-Info.plist */,
+				DF942DC219391DB800AEFE8B /* InfoPlist.strings */,
+				DF942DC519391DB800AEFE8B /* main.m */,
+				DF942DC719391DB800AEFE8B /* DKSpeller-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DF942DD819391DB800AEFE8B /* DKSpellerTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF942DDE19391DB800AEFE8B /* DKSpellerTests.m */,
+				DF942DD919391DB800AEFE8B /* Supporting Files */,
+			);
+			path = DKSpellerTests;
+			sourceTree = "<group>";
+		};
+		DF942DD919391DB800AEFE8B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF942DDA19391DB800AEFE8B /* DKSpellerTests-Info.plist */,
+				DF942DDB19391DB800AEFE8B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DF942DE919391DF100AEFE8B /* DTO */ = {
+			isa = PBXGroup;
+			children = (
+				DF942DEA19391E1700AEFE8B /* DKCheckResult.h */,
+				DF942DEB19391E1700AEFE8B /* DKCheckResult.m */,
+				DF942DED19391EAC00AEFE8B /* DKMisspelling.h */,
+				DF942DEE19391EAC00AEFE8B /* DKMisspelling.m */,
+			);
+			path = DTO;
+			sourceTree = "<group>";
+		};
+		DF942DF019391F8F00AEFE8B /* Speller */ = {
+			isa = PBXGroup;
+			children = (
+				DF942DF419391FD300AEFE8B /* DKIChecker.h */,
+				DF942DF119391F9F00AEFE8B /* DKSpeller.h */,
+				DF942DF219391F9F00AEFE8B /* DKSpeller.m */,
+			);
+			path = Speller;
+			sourceTree = "<group>";
+		};
+		DF942DF51939214B00AEFE8B /* Checker */ = {
+			isa = PBXGroup;
+			children = (
+				DF942DF61939215800AEFE8B /* DKOnlineChecker.h */,
+				DF942DF71939215800AEFE8B /* DKOnlineChecker.m */,
+			);
+			path = Checker;
+			sourceTree = "<group>";
+		};
+		DF942DF9193922AB00AEFE8B /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				DF942DFA193922BC00AEFE8B /* DKCheckViewController.h */,
+				DF942DFB193922BC00AEFE8B /* DKCheckViewController.m */,
+				DF942E00193922DA00AEFE8B /* DKCheckViewDataSource.h */,
+				DFD51D00193E478100964FB5 /* DKCheckViewDelegate.h */,
+				DF942DFD193922CB00AEFE8B /* DKCheckView.h */,
+				DF942DFE193922CB00AEFE8B /* DKCheckView.m */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF942DB519391DB800AEFE8B /* DKSpeller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF942DE219391DB800AEFE8B /* Build configuration list for PBXNativeTarget "DKSpeller" */;
+			buildPhases = (
+				2E13ABBF210B49719479337D /* Check Pods Manifest.lock */,
+				DF942DB219391DB800AEFE8B /* Sources */,
+				DF942DB319391DB800AEFE8B /* Frameworks */,
+				DF942DB419391DB800AEFE8B /* Resources */,
+				93870D54995D4677818129B9 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DKSpeller;
+			productName = DKSpeller;
+			productReference = DF942DB619391DB800AEFE8B /* DKSpeller.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF942DD019391DB800AEFE8B /* DKSpellerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF942DE519391DB800AEFE8B /* Build configuration list for PBXNativeTarget "DKSpellerTests" */;
+			buildPhases = (
+				DF942DCD19391DB800AEFE8B /* Sources */,
+				DF942DCE19391DB800AEFE8B /* Frameworks */,
+				DF942DCF19391DB800AEFE8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF942DD719391DB800AEFE8B /* PBXTargetDependency */,
+			);
+			name = DKSpellerTests;
+			productName = DKSpellerTests;
+			productReference = DF942DD119391DB800AEFE8B /* DKSpellerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF942DAE19391DB800AEFE8B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DK;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Daniil Korolev";
+				TargetAttributes = {
+					DF942DD019391DB800AEFE8B = {
+						TestTargetID = DF942DB519391DB800AEFE8B;
+					};
+				};
+			};
+			buildConfigurationList = DF942DB119391DB800AEFE8B /* Build configuration list for PBXProject "DKSpeller" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DF942DAD19391DB800AEFE8B;
+			productRefGroup = DF942DB719391DB800AEFE8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF942DB519391DB800AEFE8B /* DKSpeller */,
+				DF942DD019391DB800AEFE8B /* DKSpellerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF942DB419391DB800AEFE8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF942DC419391DB800AEFE8B /* InfoPlist.strings in Resources */,
+				DF942DCC19391DB800AEFE8B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF942DCF19391DB800AEFE8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF942DDD19391DB800AEFE8B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2E13ABBF210B49719479337D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		93870D54995D4677818129B9 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-DKSpeller-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF942DB219391DB800AEFE8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF942DFF193922CB00AEFE8B /* DKCheckView.m in Sources */,
+				DF942DEF19391EAC00AEFE8B /* DKMisspelling.m in Sources */,
+				DF942DEC19391E1700AEFE8B /* DKCheckResult.m in Sources */,
+				DF942DF319391F9F00AEFE8B /* DKSpeller.m in Sources */,
+				DF942DFC193922BC00AEFE8B /* DKCheckViewController.m in Sources */,
+				DF942DC619391DB800AEFE8B /* main.m in Sources */,
+				DF942DCA19391DB800AEFE8B /* DKAppDelegate.m in Sources */,
+				DFD51D03193E570C00964FB5 /* DKAppFactory.m in Sources */,
+				DF942DF81939215800AEFE8B /* DKOnlineChecker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF942DCD19391DB800AEFE8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF942DDF19391DB800AEFE8B /* DKSpellerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF942DD719391DB800AEFE8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF942DB519391DB800AEFE8B /* DKSpeller */;
+			targetProxy = DF942DD619391DB800AEFE8B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF942DC219391DB800AEFE8B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF942DC319391DB800AEFE8B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DF942DDB19391DB800AEFE8B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF942DDC19391DB800AEFE8B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF942DE019391DB800AEFE8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DF942DE119391DB800AEFE8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF942DE319391DB800AEFE8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F169E15B7934A40BD5D5C8B /* Pods-DKSpeller.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DKSpeller/DKSpeller-Prefix.pch";
+				INFOPLIST_FILE = "DKSpeller/DKSpeller-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DF942DE419391DB800AEFE8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F169E15B7934A40BD5D5C8B /* Pods-DKSpeller.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DKSpeller/DKSpeller-Prefix.pch";
+				INFOPLIST_FILE = "DKSpeller/DKSpeller-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		DF942DE619391DB800AEFE8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DKSpeller.app/DKSpeller";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DKSpeller/DKSpeller-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DKSpellerTests/DKSpellerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		DF942DE719391DB800AEFE8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DKSpeller.app/DKSpeller";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DKSpeller/DKSpeller-Prefix.pch";
+				INFOPLIST_FILE = "DKSpellerTests/DKSpellerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF942DB119391DB800AEFE8B /* Build configuration list for PBXProject "DKSpeller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF942DE019391DB800AEFE8B /* Debug */,
+				DF942DE119391DB800AEFE8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF942DE219391DB800AEFE8B /* Build configuration list for PBXNativeTarget "DKSpeller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF942DE319391DB800AEFE8B /* Debug */,
+				DF942DE419391DB800AEFE8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF942DE519391DB800AEFE8B /* Build configuration list for PBXNativeTarget "DKSpellerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF942DE619391DB800AEFE8B /* Debug */,
+				DF942DE719391DB800AEFE8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF942DAE19391DB800AEFE8B /* Project object */;
+}
